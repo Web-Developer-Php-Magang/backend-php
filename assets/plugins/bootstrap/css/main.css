@@ -1,0 +1,109 @@
+/*
+    body = #e1e1e1
+    bg-nav = #010409
+    text = #E1E8EE
+*/
+
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+body{
+    background-color: #e1e1e1 !important;
+}
+
+
+.container-fluid .card.float-end {
+    margin-top: 4%;
+}
+
+.text-size-14{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-size-12{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+}
+
+
+/* Default styling */
+#offcanvasDarkNavbar {
+    background-color: #161B22;
+    width: 24%;
+}
+
+/* Responsive styling for smartphones */
+@media (max-width: 767px) {
+    #offcanvasDarkNavbar {
+        width: 80%;
+    }
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2D3138 !important;
+  }
+
+.navbar-toggler {
+    border-color: none;
+}
+
+.navbar-dark .navbar-toggler {
+    color: transparent !important;
+    border-color: rgba(255,255,255,.1);
+  }
+
+.navbar.navbar-dark.bg-dark {
+    background-color: #010409 !important;
+    text-decoration: none;
+    color: #E1E8EE !important;
+    box-shadow: 0px 1px 0px rgba(250, 250, 250, 0.2); /* Menambahkan bayangan di sumbu Y */
+}
+
+.card-img-top.setup-img {
+    height: 200px; /* Tinggi gambar */
+    max-height: 200px;
+    width: 100%; /* Lebar gambar */
+    max-width: 100%;
+    object-fit: cover; /* Gambar akan dipotong atau diubah proporsinya untuk sesuai dengan kotak gambar */
+}
+
+.card-text.setup-text {
+    height: 100px;
+    max-height: 100px; /* Sesuaikan tinggi maksimum yang Anda inginkan */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Jumlah baris yang ingin Anda tampilkan sebelum tanda elipsis muncul */
+    -webkit-box-orient: vertical;
+    line-height: 1.2; /* Menjaga ketinggian teks tetap konsisten */
+}
+
+/* IMAGE PROFILE */
+.image-container{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#image-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
