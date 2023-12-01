@@ -1,0 +1,2 @@
+jika izin save file di tolak
+sudo chmod -R 777 /opt/lampp/htdocs/project/storage/ 
